@@ -1,0 +1,42 @@
+[2019-10-16 06:34:43] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.pay&timestamp=2019-10-16+06%3A34%3A43&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=Y1FQ0%2BqdRbQ74b5HqamvX1arWYU3lNSg9lId8CQ0ibnshqd7u0FvIDG8YbMbJ6Yj0ZZPJRufpva1ihDCW2a83EjI1f0GM3RCXnw5sMmh9eurWUCJMV8rvBrtfvpj0NE2g0aDsOqnAiE5y8QoA%2BpAVa%2BAmx%2BKBJmJNl39taOS3jm3mKsBBDKuwWk6VV86UmEF8D8AbSdBka40w5sgtRtoRfCo0AZjy8DyVlnfua5qgvO1CludChg0fcs5r0xTrrX6Tx4FUzOir7tbwkZcHBFpDezrXlJLv6GsnFQdrhQ5zXB14W630p2tWGHmuci9y0TPwKMbLHlfu6jOnmeyVQzbqA%3D%3D HTTP/1.1
+Content-Length: 366
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22scene%22%3A%22bar_code%22%2C%22out_trade_no%22%3A%22166939639%22%2C%22total_amount%22%3A46%2C%22auth_code%22%3A%2228699422195099713%22%2C%22timeout_express%22%3A%225m%22%2C%22subject%22%3A%22Mr.+Gerson+Grimes%22%2C%22body%22%3A%22%E8%B4%AD%E4%B9%B0%E5%95%86%E5%93%812%E4%BB%B6%E5%85%B115.00%E5%85%83%22%2C%22undiscountable_amount%22%3A%220.01%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 06:34:41 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=706B60395C9FFDAB1340468D387090C6; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 767
+Via: gateway-2-1-2.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_pay_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.PAYMENT_AUTH_CODE_INVALID","sub_msg":"支付失败，获取顾客账户信息失败，请顾客刷新付款码后重新收款，如再次收款失败，请联系管理员处理。[SOUNDWAVE_PARSER_FAIL]","buyer_pay_amount":"0.00","invoice_amount":"0.00","out_trade_no":"166939639","point_amount":"0.00","receipt_amount":"0.00"},"sign":"Ur5aChcFfIpkHkM9YXpTA/SxdLMgDOOjhIOaWpbOgXILzJH6LEVZaoh6zyOmLvoNUvhB9EjBOPNlSFsZZGmiuDpAcmVOaakeDOs3m7sz3AHM8Mi6/KPQSst6nWyGwO6ng4ml+9UFYMbwnxgMYZXfIQuMCTlrIy5yxudZ/ko5qzwtUYFyNnB/jTkgvk79k9b4pOs2/MiJIFMhUP23dXp0/oRD+aYm0yfOMm+wu5t9UPecB0PGZvO7Gm/NLndD56ttEBFiRzuqP7dxYsbw/bfyUHgRkXCN56aSWeToQCNcnTLQNlk9zEhPZUWhs2TKcxeSpymRQcpqBxeY2uEN9/m/Qg=="}
+--------
+NULL  
+[2019-10-16 06:35:19] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.pay&timestamp=2019-10-16+06%3A35%3A15&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=N9PpKZihaYwdQ%2FXUla9hEylwFPF3s2Hlu6qC%2FyWopjp393Gviti8%2B3BHQMdjgBQtikmcbrrQsVu%2BELetXwyC0ur8y6%2F6%2FhsXvPhsW0sNVUdd%2F6B1Q9NRZAy56CNoxg0o%2Fjaa1WxOSrOUqO3iTh8gxIYLuBiq4mKeRC5XtWLPzxzQVqoZsWCOph6dlwa66OgonY2fH5MEKSBnBG7C5r3EqAzjm9%2BKYYeM1lrqdevdcP%2BvVwGa7lR5Hy5dDJWT8D3em%2FH2r9bLbx9iWCU7YsHf50XtbApl354ulGL27Y4X6MvhsPcuUOs2Av%2FLWVFhVhLb4%2BtQo8QF9O10tNZxC0YBCw%3D%3D HTTP/1.1
+Content-Length: 362
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22scene%22%3A%22bar_code%22%2C%22out_trade_no%22%3A%2247060307421%22%2C%22total_amount%22%3A9%2C%22auth_code%22%3A%22280084845040308775%22%2C%22timeout_express%22%3A%225m%22%2C%22subject%22%3A%22Grady+Ortiz%22%2C%22body%22%3A%22%E8%B4%AD%E4%B9%B0%E5%95%86%E5%93%812%E4%BB%B6%E5%85%B115.00%E5%85%83%22%2C%22undiscountable_amount%22%3A%220.01%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 06:35:17 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=A04E22399240417D166B89EAC13844AD; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 810
+Via: gateway-2-1-1.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_pay_response":{"code":"10000","msg":"Success","buyer_logon_id":"cbl***@sandbox.com","buyer_pay_amount":"9.00","buyer_user_id":"2088102179478092","buyer_user_type":"PRIVATE","fund_bill_list":[{"amount":"9.00","fund_channel":"ALIPAYACCOUNT"}],"gmt_payment":"2019-10-16 14:35:17","invoice_amount":"9.00","out_trade_no":"47060307421","point_amount":"0.00","receipt_amount":"9.00","total_amount":"9.00","trade_no":"2019101622001478091000060191"},"sign":"d2nP5fe3+8PcYvn2O4mXqApQuguX3d5eVqKQo6B/4waTjQt/eVqHE/O6UCRKOWrdZyMYRmj0OKY89rUgeeSLIDZLSFrWnECQh9HTtaEh6OgglIHtUi242vg1rwlc8lXBddKCm9jLpNg9wAPzxldvz6B9x65T721yND39vwprZA5cfO4P5No8gUgsgl/sf2vvzf5wBdW9hf3A+n6ihxlf/LlM90izsK63XyAhS/GzafyChQw35XHhMxfYMd0RcUyvTDKks29T/YLCEIUeRm1Px/ziw/hWW1+6xiI/Iz8tXy+A4g7RNPCIno/Sy0gQivQtAsv7S8a3CG3irwICkuWQ8A=="}
+--------
+NULL  

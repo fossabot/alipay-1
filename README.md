@@ -3,6 +3,8 @@
 基于Laravel框架的支付宝支付SDK，目前仅支持当面付
 
 ## Installation
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJustshunjian%2Falipay.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJustshunjian%2Falipay?ref=badge_shield)
+
 
 ```shell
 $ composer require "kaylyu/alipay:~1.0" -vvv
@@ -56,3 +58,7 @@ $ composer require "kaylyu/alipay:~1.0" -vvv
     app('kaylu.alipay.f2fpay')->order->qrPay
 
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJustshunjian%2Falipay.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJustshunjian%2Falipay?ref=badge_large)

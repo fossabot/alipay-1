@@ -22,7 +22,7 @@ class ServiceProvider extends LaravelServiceProvider
             __DIR__ . '/../config/kaylu-alipay.php', 'kaylu-alipay'
         );
 
-        $this->app->singleton('kaylu.alipay', function ($app) {
+        $this->app->singleton('kaylu.alipay.f2fpay', function ($app) {
             return new Application(
                 $app['config']['kaylu-alipay']
             );

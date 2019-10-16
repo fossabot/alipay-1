@@ -46,7 +46,7 @@
     },
     "extra": {
         "laravel": {
-            "providers": ["Kaylyu\\Alipay\\ServiceProvider"]
+            "providers": []
         }
     },
     "repositories":[

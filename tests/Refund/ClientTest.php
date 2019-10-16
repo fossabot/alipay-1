@@ -61,7 +61,7 @@ class ClientTest extends TestCase
      * 统一收单交易退款接口
      * @author kaylv <kaylv@dayuw.com>
      */
-    public function testRefund(){
+    public function Refund(){
         $faker = Factory::create();
         ////获取商户订单号
         $outTradeNo = '0478795592836';

@@ -40,3 +40,150 @@ Via: gateway-2-1-1.daily.alipay.net[200],11.166.43.162:80[200]
 {"alipay_trade_pay_response":{"code":"10000","msg":"Success","buyer_logon_id":"cbl***@sandbox.com","buyer_pay_amount":"9.00","buyer_user_id":"2088102179478092","buyer_user_type":"PRIVATE","fund_bill_list":[{"amount":"9.00","fund_channel":"ALIPAYACCOUNT"}],"gmt_payment":"2019-10-16 14:35:17","invoice_amount":"9.00","out_trade_no":"47060307421","point_amount":"0.00","receipt_amount":"9.00","total_amount":"9.00","trade_no":"2019101622001478091000060191"},"sign":"d2nP5fe3+8PcYvn2O4mXqApQuguX3d5eVqKQo6B/4waTjQt/eVqHE/O6UCRKOWrdZyMYRmj0OKY89rUgeeSLIDZLSFrWnECQh9HTtaEh6OgglIHtUi242vg1rwlc8lXBddKCm9jLpNg9wAPzxldvz6B9x65T721yND39vwprZA5cfO4P5No8gUgsgl/sf2vvzf5wBdW9hf3A+n6ihxlf/LlM90izsK63XyAhS/GzafyChQw35XHhMxfYMd0RcUyvTDKks29T/YLCEIUeRm1Px/ziw/hWW1+6xiI/Iz8tXy+A4g7RNPCIno/Sy0gQivQtAsv7S8a3CG3irwICkuWQ8A=="}
 --------
 NULL  
+[2019-10-16 08:52:55] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.cancel&timestamp=2019-10-16+08%3A52%3A53&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=MoiESMCWvCGVQT2cR4EhUE7s4hRHNJzUNkKGVEDFibRYqKps0u7XoMspAP%2BTVI3xcEZ0WBNaYg%2BDe7Ku9mjQnp00SLfpDALcX%2B0bIK4hsPmWUOgY5VQkxUMZCRTjJtbYVzqikPDqbOq63RG21pwi8gUiZFAHzDd%2FCjCf0zvdumAfBkqsryS2SsPV%2BTuPZPsH49nUlyHiI5eyOrfp4%2BmjHP2dr0lD9i3x79u9Ydc9mgwRCmlgrCA0j5yqnZeW6wwV72ZrJ%2Byw2yWXX7SR0J8kAn%2FmRW0bWc3hIK0knX8q7CeyMiY79TBbzRWJvawTOb6qBdkHsr0ylF7gqzzvvxgMcg%3D%3D HTTP/1.1
+Content-Length: 56
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22out_trade_no%22%3A%2247060307421%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 08:52:55 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=3743E1A41F2198C2954C11F4A07EA3EC; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 525
+Via: gateway-2-1-1.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_cancel_response":{"code":"10000","msg":"Success","action":"refund","out_trade_no":"47060307421","retry_flag":"N","trade_no":"2019101622001478091000060191"},"sign":"MGdDEQxEyJwL+8N+C81agU/CfqJOUGqs8DAr9bw+rXnAnUr8iUc3noXRfWAXKNGqKsjPNqdGIBJh8W1m1n6z1fccCHzSXHZfLGTLws9T1dh7VaudAYWfr9GXGEDpYGCpPT1H2uqRXtoyYkkSJZU3L0rtzdTFTkRVqZGPpaNbMD9I9HXu98knBPa3vmpcSJf2du74yMjyFG2g02QV0Ks0WGZ1Ylt58biyIHs2oLyD5tVBR8Y5E3R7c8mTdU3QLUSE+/fZpcPgvGhqSZAgGXK8wrqe3uOAApXgZLG5hMkBsuIdfq+dAhDieN+H4JFvLRGB07FqGSCYE15QHr6/Goh/+w=="}
+--------
+NULL  
+[2019-10-16 08:53:28] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.cancel&timestamp=2019-10-16+08%3A53%3A28&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=N2PZADgmRt8mXN81AVOeu%2BVq67sw24YzmxSSHhsvUqSRj6Em5oFUWinu%2B9HG0zS%2Be4oan7w6NG041VFWgyLbJA3271c6Hrhm2U0sxUUGg64c3THiIJKwcOXALYEhIKe7Foy9BI9u%2FV0SPZgN85mXZ2gF07X%2FrQLtQapcx6cuUVRX2W9sy56g39vmZesOOFnZ4CH7aEqjTonHWSHzZjuy8wsUUEuhdUBdI6EBYK%2FUTODl8JkdMBNtfYl7mkiuqFbDHarkT1%2F9jjUoirZ%2FBTZCeDSEU%2FzPNvJVtKomnD7jXtXD3bsSGKPE%2BPLt30rjn4kdB3Ko6eFBepsMoI1c8eHTPg%3D%3D HTTP/1.1
+Content-Length: 56
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22out_trade_no%22%3A%2247060307421%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 08:53:28 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=7EE7B61C1911C46C2539BD8E2B2B605C; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 465
+Via: gateway-2-1-2.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_cancel_response":{"code":"10000","msg":"Success","out_trade_no":"47060307421","retry_flag":"N"},"sign":"Jyv1+zfOQmkuYuR365ZS91Pehp8PGIIRvxz1ikPMxgQFsiftllipo4r9FvnAoKUZfnn/CjyDzD7aepmMS6oH4Cnpu0XsWkJL4Xm//txza4tPvoOKskhZdeFVbWDnfZXS5lvs/4SQ975cNyi+HCk/JozE1lzx7RurSbmwNhuiwaDODEarUM8sFJaERxApPq+eNdgdy1WMy97ihlbg4BUErAsXcECEleBTOH43KppeTR8X7jZBg9v0c+i8HZeS4s1ttK/j0WQ/sL2c7s2tywsISBUI0ACF87cOyOZowFlwXRunKo9M4Hp3TC2icnoO7T2boyRMiEq7OlYeTo/6ucb1xA=="}
+--------
+NULL  
+[2019-10-16 09:07:33] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.close&timestamp=2019-10-16+09%3A07%3A33&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=QyBvI3Clowc7RWGQOtdmPpsm3yP0tSKlpzSZexuv8ZFZVG6z3CDcGYb36Td4mHQnjg93cJmLNh7OzCi6o1mbmaZF5QArx6UA8L4x30gtc0eZ1Xni6xpnP%2BwUtGj1AP1%2FLi%2B7V2I9TkQ%2BfFp%2FCyuJEoebKfTdaeXhLq3%2BU1O7RXR%2FxMfQxvxJ1Owu8iedy78bMlo8ndQJ6PhNiHUMQ8rfs3yhuBePkFgU7%2FBCEV7BkgXdGKf09CUel%2BvYfGCkwLleohBePhY7HWNI7S3EVtqDb7tHsFbdvgTuF8wn0efqJCuoihjrJGEkoPVHcg3KlpIDbUlwnMbbXZoTgsWr%2BArFjA%3D%3D HTTP/1.1
+Content-Length: 56
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22out_trade_no%22%3A%2247060307421%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 09:07:33 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=7C7AF5390D9A609E1B4788FDAF2FCA9E; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 525
+Via: gateway-2-1-1.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_close_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_STATUS_ERROR","sub_msg":"交易状态不合法","out_trade_no":"47060307421"},"sign":"e7rDQMOsAiz3OXrx/CLZc9vwuC1vob58ZaCN3nmpDXpu7wPB3ivtrxWx57/zrvI2tysDOHVulGPAzWB6VZsFZth9jaZqp/nUnaPih60Xy08B0ccu3hGS7Y72evqPSh3C4Kn42BzNs9X020GbyLQPyyM2bmNjc2unItLMtkPPv6/+uTHLVq/ptYdVx/kL4KgQIr2liUtrWyJ4tynw435dQMWss449BCe4Jl2AGalaa/ijq84ZNw1sHHrxMAscYc7rsu8LEH8ybbVRbCrgNl7a3ifS+cWlcr6E/f96qbX8uqa960GpTUKiJc46+xMVU1kOwjkRjfFeZ4dfrdJw6W7W2w=="}
+--------
+NULL  
+[2019-10-16 09:08:24] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.close&timestamp=2019-10-16+09%3A08%3A23&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=OuPaNsZ4pLamYhZfsSnocaERc6DRCH2fphAKo6ZA7DPXdCbfQuTzjMnZdS2NNRRs5QRZaVWlQM4AyMXFEEOKWDMMtYOfMurrWapdtMNQKF%2BYWgCnhaZqJ%2BUu%2B7%2B4rKj%2BMBDfrl8x8IHybKBYuxrXZO0GGDvmD9vTOdCPhlund3GP05luHba0TlX174une8vmXyRAa1JroGHG%2FFQ93hFzupWsii5D%2FBkvoWSA3slHgRpKsEVp53D%2BuMWjOROptDu7Vu8nn8kBk87WHV%2BeTNv%2FzKahAGvOy9yfm55HatiBY40aGo0tU8aYUJb%2FMwybq1hVh7Mh2IhEEu70%2FcswvqQZ6w%3D%3D HTTP/1.1
+Content-Length: 56
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22out_trade_no%22%3A%2247060307421%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 09:08:23 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=4E276212FAB74FDE8944E25DC0BEF5DE; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 525
+Via: gateway-2-1-2.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_close_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_STATUS_ERROR","sub_msg":"交易状态不合法","out_trade_no":"47060307421"},"sign":"e7rDQMOsAiz3OXrx/CLZc9vwuC1vob58ZaCN3nmpDXpu7wPB3ivtrxWx57/zrvI2tysDOHVulGPAzWB6VZsFZth9jaZqp/nUnaPih60Xy08B0ccu3hGS7Y72evqPSh3C4Kn42BzNs9X020GbyLQPyyM2bmNjc2unItLMtkPPv6/+uTHLVq/ptYdVx/kL4KgQIr2liUtrWyJ4tynw435dQMWss449BCe4Jl2AGalaa/ijq84ZNw1sHHrxMAscYc7rsu8LEH8ybbVRbCrgNl7a3ifS+cWlcr6E/f96qbX8uqa960GpTUKiJc46+xMVU1kOwjkRjfFeZ4dfrdJw6W7W2w=="}
+--------
+NULL  
+[2019-10-16 09:08:38] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.close&timestamp=2019-10-16+09%3A08%3A37&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=TlYnKSIg%2BnOfVxCoAb2OGPsx%2BdQfOwHEkvI3uKxDsb3pmLfcgi99n1k68vmGAqXw6U4Yo5qQQAbmTRAjKFMWlvQ%2B6NwcY2Rab36psWzrON%2FKUwCH7vY9X620gMzkf9kb%2B7UK0J5JMVHcZhsFjl92zWQtd3Ky4LGSThXDqA0fqLwmVvD5jaDK5zsNa6Ths%2FwLyJDaKiFgYgtVJ0oh4PKUw%2BaUqJ%2FhbIhPTHzjHcAIwePU677oOa%2BTEJlpAAXfGD7MAIsque4okgmSwttUTeBjEmbi1GfzD7DC6h86V54fVTBNn67xczRTuEWgowHx8UMEay0Cu3MxCAKo%2FJeQg3Kmhw%3D%3D HTTP/1.1
+Content-Length: 56
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22out_trade_no%22%3A%2247060307421%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 09:08:37 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=EDB94F938698D7EACA4FF4192484BB33; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 525
+Via: gateway-2-1-1.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_close_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_STATUS_ERROR","sub_msg":"交易状态不合法","out_trade_no":"47060307421"},"sign":"e7rDQMOsAiz3OXrx/CLZc9vwuC1vob58ZaCN3nmpDXpu7wPB3ivtrxWx57/zrvI2tysDOHVulGPAzWB6VZsFZth9jaZqp/nUnaPih60Xy08B0ccu3hGS7Y72evqPSh3C4Kn42BzNs9X020GbyLQPyyM2bmNjc2unItLMtkPPv6/+uTHLVq/ptYdVx/kL4KgQIr2liUtrWyJ4tynw435dQMWss449BCe4Jl2AGalaa/ijq84ZNw1sHHrxMAscYc7rsu8LEH8ybbVRbCrgNl7a3ifS+cWlcr6E/f96qbX8uqa960GpTUKiJc46+xMVU1kOwjkRjfFeZ4dfrdJw6W7W2w=="}
+--------
+NULL  
+[2019-10-16 09:10:02] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.close&timestamp=2019-10-16+09%3A10%3A02&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=o7FVhXtrDwW8tpqVErSaDsVxNd8CNanu2Q1Y3cZpm%2FYn03wZ%2FqSQCknFC6gb7In9YMhcd1hfWzNc9O8N1kgqtwfPg9JzFeTGqrf7l18RB3yfSHroGTQLHPsiBPcfCa9elyXDi505uV8RrVWfUmMIN2MJrmeHqKtG%2BQ9vFtDyPq2C8d4aJXTBbi2TUqnPpnPiIyzRzuxzIvc6p7jmV16zUNwLj2qA9gplL8CR6c8M97kKMyA%2B5X1L9zgKEgj8uKa9KGnktvN%2Fzq3WbXGicdFeS%2Bk2YJ2DrYIESPpg71u5EKmZCUZS2J9ud8cbCCeLhu6E3hrcnGxnLbtpxJKlWMGVXg%3D%3D HTTP/1.1
+Content-Length: 56
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22out_trade_no%22%3A%2247060307421%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 09:10:02 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=CFFA8ECE7AB38114DBC1B5ED9EF464E6; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 525
+Via: gateway-2-1-2.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_close_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_STATUS_ERROR","sub_msg":"交易状态不合法","out_trade_no":"47060307421"},"sign":"e7rDQMOsAiz3OXrx/CLZc9vwuC1vob58ZaCN3nmpDXpu7wPB3ivtrxWx57/zrvI2tysDOHVulGPAzWB6VZsFZth9jaZqp/nUnaPih60Xy08B0ccu3hGS7Y72evqPSh3C4Kn42BzNs9X020GbyLQPyyM2bmNjc2unItLMtkPPv6/+uTHLVq/ptYdVx/kL4KgQIr2liUtrWyJ4tynw435dQMWss449BCe4Jl2AGalaa/ijq84ZNw1sHHrxMAscYc7rsu8LEH8ybbVRbCrgNl7a3ifS+cWlcr6E/f96qbX8uqa960GpTUKiJc46+xMVU1kOwjkRjfFeZ4dfrdJw6W7W2w=="}
+--------
+NULL  
+[2019-10-16 09:10:20] NULL.INFO: >>>>>>>>
+POST /gateway.do?app_id=2016101100663012&version=1.0&format=json&sign_type=RSA2&method=alipay.trade.close&timestamp=2019-10-16+09%3A10%3A20&auth_token=&alipay_sdk=alipay-sdk-php-20161101&terminal_type=&terminal_info=&prod_code=&notify_url=&charset=UTF-8&app_auth_token=&sign=DtDfXxqZWl%2B5Qp844zw5FKRSjsLkg10ftxcl5BpN4m90XZGfby9otxUagMgL%2BBSdtXku1mlLCJFDOILTaEAOsa3LGVN%2FspGGy9MmgjxBZ6eAAeeW85iIancSv5HOwXMssZeMG%2BoKxiMvpMRSpk4bGovMptLQbz7T1fTjLGsNWONVR9BMxWmIfU4%2BAeXsxLK85ocFwE3RhdzsTkmQF7CJ5DNrSOOBo5hvEhlqMKBB%2FTAPPUlsKarUcKl6%2FR7yb2om1sblLGNw%2F5KQUY5mw1PvVUfRFe4KvVCMWgrI7AOYFNX0C3AJ6mPhrywaZd4x7WP28czH7U5nhU7SJgQwCPh%2BpQ%3D%3D HTTP/1.1
+Content-Length: 56
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.4
+Content-Type: application/x-www-form-urlencoded
+Host: openapi.alipaydev.com
+
+biz_content=%7B%22out_trade_no%22%3A%2247060307421%22%7D
+<<<<<<<<
+HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Wed, 16 Oct 2019 09:10:20 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive, keep-alive
+Set-Cookie: JSESSIONID=0338DCA07808DEB7D50B41A9AC0C8905; Path=/; HttpOnly, spanner=r7Gde3HSucXTedbI2QGl1ewBN9Uv8Bn2Xt2T4qEYgj0=;path=/;secure;
+content-length: 525
+Via: gateway-2-1-2.daily.alipay.net[200],11.166.43.162:80[200]
+
+{"alipay_trade_close_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.TRADE_STATUS_ERROR","sub_msg":"交易状态不合法","out_trade_no":"47060307421"},"sign":"e7rDQMOsAiz3OXrx/CLZc9vwuC1vob58ZaCN3nmpDXpu7wPB3ivtrxWx57/zrvI2tysDOHVulGPAzWB6VZsFZth9jaZqp/nUnaPih60Xy08B0ccu3hGS7Y72evqPSh3C4Kn42BzNs9X020GbyLQPyyM2bmNjc2unItLMtkPPv6/+uTHLVq/ptYdVx/kL4KgQIr2liUtrWyJ4tynw435dQMWss449BCe4Jl2AGalaa/ijq84ZNw1sHHrxMAscYc7rsu8LEH8ybbVRbCrgNl7a3ifS+cWlcr6E/f96qbX8uqa960GpTUKiJc46+xMVU1kOwjkRjfFeZ4dfrdJw6W7W2w=="}
+--------
+NULL  

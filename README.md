@@ -4,7 +4,7 @@
 ## Installation
 
 ```shell
-$ composer require "dayuw/lvmama:~1.0" -vvv
+$ composer require "kaylyu/alipay:~1.0" -vvv
 ```
 
 ## Usage
